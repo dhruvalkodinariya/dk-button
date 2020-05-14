@@ -4,11 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <!-- <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,300,300italic,400italic,500,500italic,700,700italic" rel="stylesheet">
+  <style>
+    .main-container{
+      display: flex;
+    }
+  </style>
 </head>
 <body>
-  <dk-button-demo></dk-button-demo>
-  <dk-button-demo dark-theme></dk-button-demo>
+  <div class="main-container">
+    <dk-button-demo></dk-button-demo>
+    <dk-button-demo dark-theme></dk-button-demo>
+  </div>
+  
   <script type="module" src="./dk-button-demo.js"></script>
 </body>
 </html>

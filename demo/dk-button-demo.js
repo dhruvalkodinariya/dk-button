@@ -9,6 +9,7 @@ export class DkButtonDemo extends LitElement {
       css`
       :host {
         display: block;
+        padding: 14px;
       }
 
       section div{
